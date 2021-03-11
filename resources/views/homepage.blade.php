@@ -135,6 +135,34 @@
     $array = json_decode($data, true);
 @endphp
 
-<div><h1>mimmo</h1></div>
+<div class="main-container-app">
+<!-- START APPLICATION -->
+<div class="width-container">
+
+
+<div class="header">
+
+<div class="logo-image">
+<div class="img">
+  <img src="../images/logo-molisana.png" alt="">
+</div>
+</div>
+
+<div class="menu-header">
+<div class="options-menu">
+  <ul>
+    <li>Home</li>
+    <li>Prodotti</li>
+    <li>News</li>
+  </ul>
+
+</div>
+</div>
+</div>
+</div>
+
+<!-- END MAIN-CONTAINER-APP -->
+</div>
+
 
 </html>

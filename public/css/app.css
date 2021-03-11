@@ -1,0 +1,34 @@
+.main-container-app {
+  width: 100vw;
+  height: 100vh;
+}
+.main-container-app .header {
+  width: 100%;
+  height: 220px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-container-app .header .logo-image {
+  text-align: center;
+}
+.main-container-app .header .logo-image img {
+  width: 200px;
+  height: 120px;
+  border: 1px solid black;
+}
+.main-container-app .header .menu-header .options-menu {
+  margin-left: -40px;
+}
+.main-container-app .header .menu-header .options-menu ul li {
+  display: inline;
+  list-style: none;
+}
+.main-container-app .width-container {
+  width: 1200px;
+  height: 100%;
+  border: 1px solid black;
+  margin: 0 auto;
+}

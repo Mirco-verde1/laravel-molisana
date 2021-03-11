@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('homepage');
 });
+
+Route::get('/product/{id}', function($id) {
+    return view('product',
+        ['idProduct' => $id]
+    );
+});

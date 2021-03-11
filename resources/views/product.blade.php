@@ -1,7 +1,7 @@
 
 @php
 
-$data = '[
+$data  = '[
   {
     "src": "https://www.lamolisana.it/wp-content/uploads/2017/06/4-spaghetto-quadrato-bucato-m.jpg",
     "src-h": "https://www.lamolisana.it/wp-content/uploads/2017/06/4-spaghetto-quadrato-bucato-h.jpg",

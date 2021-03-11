@@ -127,3 +127,23 @@ $data  = '[
 $array = json_decode($data, true);
 
 @endphp;
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  <div class="header">
+
+  </div>
+
+  <div class="content">
+    {{$array[$idProduct]['titolo']}}
+    <img src="{{$array[$idProduct]['src-h']}}" alt="">;
+  </div>
+
+  </body>
+</html>

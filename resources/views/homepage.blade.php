@@ -123,6 +123,7 @@ $data = '[
 ]';
 
 $array = json_decode($data, true);
+$logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sito-test.png'
 @endphp
 
 
@@ -145,7 +146,7 @@ $array = json_decode($data, true);
 
         <div class="logo-image">
           <div class="img">
-            <img src= {{ $logo }} alt="">
+          <img src="{{$logoMolisana}}" alt="">
           </div>
         </div>
 
@@ -173,7 +174,9 @@ $array = json_decode($data, true);
           @if($type['tipo'] === 'lunga')
 
           <div class="box-product">
+            <a href="/product/{{$key}}">
             <img src="{{$type['src']}}" alt="">
+            </a>
           </div>
 
           @endif
@@ -188,7 +191,9 @@ $array = json_decode($data, true);
           @if($type['tipo'] === 'corta')
 
           <div class="box-product">
+            <a href="/product/{{$key}}">
             <img src="{{$type['src']}}" alt="">
+            </a>
           </div>
 
           @endif
@@ -203,7 +208,9 @@ $array = json_decode($data, true);
           @if($type['tipo'] == 'cortissima')
 
           <div class="box-product">
+            <a href="/product/{{$key}}">
             <img src="{{$type['src']}}" alt="">
+            </a>
           </div>
 
           @endif
@@ -217,9 +224,53 @@ $array = json_decode($data, true);
       <footer>
 
         <div class="footer">
-          CIAO
+
+      <div class="container">
+
+
+          <div class="content-footer-left">
+
+            <div class="logo">
+              <img src="{{$logoMolisana}}" alt="">
+            </div>
+
+            <div class="under-logo-list">
+            <ul>
+              <li>Regione sociale: La Molisana S.P.A.</li>
+              <li>Sede legale: Contrada Colle delle Api, 100/A</li>
+              <li>86100-Campobasso (CB)</li>
+              <li>Pec: lamolisana@pec.it</li>
+              <li>Tel: +39 0874 4981</li>
+              <li>Fax: +39 0874 629584</li>
+              <li>info@lamolisana.it (per segnalazioni degli utent)</li>
+              <li>commerciale@lamolisana.it</li>
+              <li>export@lamolisana.it</li>
+              <li>numero verde 800818081</li>
+              <li>telefono 3801292455</li>
+            </ul>
+
+          </div>
+          </div>
+
+          <div class="content-footer-right">
+            <div class="left-list">
+              <h4>PASTIFICIO</h4>
+              <ul>
+                <li>Il Pastificio</li>
+                <li>Grano decorticato a pietra</li>
+                <li>Il Molise c'è</li>
+                <li>Filiera Integrata</li>
+                <li>100 anni di pasta</li>
+                <li>Sartoria della pasta</li>
+              </ul>
+            </div>
+
+          </div>
+
+
         </div>
       </footer>
+      </div>
     </div>
 
     <!-- END MAIN-CONTAINER-APP -->

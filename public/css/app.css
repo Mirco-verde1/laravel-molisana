@@ -18,7 +18,6 @@
 .main-container-app .header .logo-image img {
   width: 200px;
   height: 120px;
-  border: 1px solid black;
 }
 .main-container-app .header .menu-header .options-menu {
   margin-left: -40px;
@@ -30,13 +29,11 @@
 .main-container-app .container {
   width: 100%;
   height: 100%;
-  border: 1px solid black;
   margin: 0 auto;
 }
 .main-container-app .container .product-container {
   width: 1100px;
   height: 70%;
-  border: 1px solid black;
   margin: 70px auto;
 }
 .main-container-app .container .product-container .type-of-pasta-1 {
@@ -47,7 +44,6 @@
   height: 180px;
   float: left;
   margin: 8px;
-  border: 1px solid black;
 }
 .main-container-app .container .product-container .type-of-pasta-1 .box-product img {
   width: 100%;
@@ -61,7 +57,6 @@
   height: 180px;
   float: left;
   margin: 8px;
-  border: 1px solid black;
 }
 .main-container-app .container .product-container .type-of-pasta-2 .box-product img {
   width: 100%;
@@ -75,7 +70,6 @@
   height: 180px;
   float: left;
   margin: 8px;
-  border: 1px solid black;
 }
 .main-container-app .container .product-container .type-of-pasta-3 .box-product img {
   width: 100%;
@@ -84,7 +78,6 @@
 .main-container-app .container .footer {
   width: 100%;
   height: 500px;
-  border: 1px solid black;
 }
 .main-container-app .container .footer .container {
   width: 1100px;
@@ -95,13 +88,10 @@
 .main-container-app .container .footer .container .content-footer-left {
   height: 100%;
   width: 40%;
-  border: 1px solid black;
-  border: 1px solid black;
 }
 .main-container-app .container .footer .container .content-footer-left .logo img {
   width: 200px;
   height: 120px;
-  border: 1px solid black;
 }
 .main-container-app .container .footer .container .content-footer-left .under-logo-list ul li {
   list-style: none;

@@ -39,6 +39,7 @@ Route::get('/', function() {
 
 
 Route::get('/product/{id?}', function($id=null) {
+  
   $pastaArray = config('dati-pasta' );
   if(empty($id)) {
     return redirect('/');

@@ -11,7 +11,7 @@
         <div class="menu-header">
           <div class="options-menu">
             <ul>
-              <li>Home</li>
+              <li><a href="/">Home</a></li>
               <li>Prodotti</li>
               <li>News</li>
             </ul>

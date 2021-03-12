@@ -30,6 +30,13 @@
   list-style: none;
   padding: 30px;
 }
+.main-container-app .header .menu-header .options-menu ul li:nth-child(2) {
+  background: #b2e5fc;
+}
+.main-container-app .header .menu-header .options-menu ul li:nth-child(1) a {
+  text-decoration: none;
+  color: #000;
+}
 .main-container-app .container {
   background-image: url(/images/fondo-pag-speciali.jpg?495cda396bfe9f137038166b61c40759);
 }
@@ -81,12 +88,27 @@
   width: 100%;
   height: 1300px;
   background: #b7dae5;
+  position: relative;
 }
-.main-container-app .container .details-product .container {
+.main-container-app .container .details-product .left-chevron {
+  font-size: 52px;
+  color: #fff;
+  position: absolute;
+  transform: translate(-50%, 0);
+  top: 50%;
+  padding: 11px;
+  background: #dcedf2;
+  left: 28px;
+}
+.main-container-app .container .details-product .left-chevron a i {
+  color: #fff;
+}
+.main-container-app .container .details-product .container-description {
   width: 1100px;
   margin: 0 auto;
+  position: relative;
 }
-.main-container-app .container .details-product .container .title {
+.main-container-app .container .details-product .container-description .title {
   width: 100%;
   text-align: center;
   background: #b7dae5;
@@ -94,24 +116,38 @@
   padding: 30px;
   margin-left: -35px;
 }
-.main-container-app .container .details-product .container .title h3 {
+.main-container-app .container .details-product .container-description .title h3 {
   color: #002d73;
   font-size: 30px;
 }
-.main-container-app .container .details-product .container .image {
+.main-container-app .container .details-product .container-description .image {
   margin-bottom: -5px;
 }
-.main-container-app .container .details-product .container .image img {
+.main-container-app .container .details-product .container-description .image img {
   width: 100%;
   height: 450px;
 }
-.main-container-app .container .details-product .container .front-image {
+.main-container-app .container .details-product .container-description .front-image {
   margin-bottom: -5px;
 }
-.main-container-app .container .details-product .container .front-image img {
+.main-container-app .container .details-product .container-description .front-image img {
   width: 100%;
   height: 450px;
   margin-bottom: -5px;
+}
+.main-container-app .container .details-product .right-chevron {
+  font-size: 52px;
+  color: #fff;
+  position: absolute;
+  transform: translate(-50%, 0);
+  top: 50%;
+  right: 0;
+  padding: 11px;
+  background: #dcedf2;
+  right: -28px;
+}
+.main-container-app .container .details-product .right-chevron a i {
+  color: #fff;
 }
 .main-container-app .footer {
   width: 100%;

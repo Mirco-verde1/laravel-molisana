@@ -12,13 +12,37 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//
+// Route::get('/', function () {
+//     return view('homepage');
+// });
+//
+// Route::get('/product/{id}', function($id) {
+//     return view('product',
+//         ['idProduct' => $id]
+//     );
+// });
+//
 
-Route::get('/', function () {
-    return view('homepage');
+Route::get('/', function() {
+  $pastaArray = config('dati-pasta');
+
+  return view('homepage',[
+    'datiPasta' => $pastaArray
+  ]);
+
 });
 
-Route::get('/product/{id}', function($id) {
-    return view('product',
-        ['idProduct' => $id]
-    );
+
+
+Route::get('/product/{id?}', function($id=null) {
+  $pastaArray = config('dati-pasta' );
+  if(empty($id)) {
+    return redirect('/');
+  }
+  
+  return view('product',
+  ['datiPasta' => $pastaArray],
+   ['idProduct' => $id]);
+
 });

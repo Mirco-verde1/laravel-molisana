@@ -31,6 +31,7 @@
   height: 100%;
   border: 1px solid black;
   margin: 0 auto;
+  background-image: url(/images/fondo-pag-speciali.jpg?495cda396bfe9f137038166b61c40759);
 }
 .main-container-app .container .product-container {
   width: 1000px;

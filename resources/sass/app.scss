@@ -59,6 +59,7 @@
   // START PRODUCT CONTAINER----------------------------------------------------
   .container{
     @include container;
+    background-image: url(..\images\fondo-pag-speciali.jpg);
 
     .product-container{
 

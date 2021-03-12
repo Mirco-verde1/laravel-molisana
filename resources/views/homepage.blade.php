@@ -16,10 +16,10 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
   <div class="main-container-app">
     <!-- START APPLICATION -->
 
-
+    @include('header-part')
     <div class="container">
 
-        @include('header-part')
+
 
       <div class="product-container">
 
@@ -32,7 +32,7 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
 
           <div class="box-product">
             <a href="/product/{{$key + 1}}">
-            <img src="{{$type['src']}}" alt="">
+              <img src="{{$type['src']}}" alt="">
             </a>
           </div>
 
@@ -49,7 +49,7 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
 
           <div class="box-product">
             <a href="/product/{{$key + 1}}">
-            <img src="{{$type['src']}}" alt="">
+              <img src="{{$type['src']}}" alt="">
             </a>
           </div>
 
@@ -66,7 +66,7 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
 
           <div class="box-product">
             <a href="/product/{{$key + 1}}">
-            <img src="{{$type['src']}}" alt="">
+              <img src="{{$type['src']}}" alt="">
             </a>
           </div>
 
@@ -75,11 +75,13 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
         </div>
 
 
+
+
       </div>
 
-@include('footer-part')
-    </div>
 
+    </div>
+    @include('footer-part')
     <!-- END MAIN-CONTAINER-APP -->
   </div>
 

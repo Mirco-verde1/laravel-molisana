@@ -21,6 +21,8 @@
 
   // START CONTAINER------------------------------------------------------------
 
+
+
   .header{
     width: 100%;
     height: 220px;
@@ -32,15 +34,17 @@
 
     .logo-image{
       text-align: center;
-      img{
-        width: 200px;
-        height: 120px;
+      a{
+        img{
+          width: 200px;
+          height: 120px;
+        }
       }
     }
 
     .menu-header{
-     font-size: 30px;
-     font-weight: bolder;
+      font-size: 30px;
+      font-weight: bolder;
       .options-menu{
         margin-left: -60px;
         ul{
@@ -59,7 +63,7 @@
 
   // START PRODUCT CONTAINER----------------------------------------------------
   .container{
-    @include container;
+
     background-image: url(..\images\fondo-pag-speciali.jpg);
 
     .product-container{
@@ -108,83 +112,133 @@
       }
     }
 
-    // START FOOTER------------------------------------------------------------
-    .footer{
+    // START PRODUCT DETAILS OF PAGE PRODUCT.BLADE.PHP------------------------------
+    .details-product{
       width: 100%;
-      height: 500px;
-      background: #fff;
+      height: 1300px;
+      background: #b7dae5;
 
       .container{
         width: 1100px;
         margin: 0 auto;
-        height: 80%;
-        display: flex;
-        background: #fff;
-        color: $colorFooter;
 
-        .content-footer-left{
-          height: 100%;
-          width: 37%;
+        .title{
+          width: 100%;
+          text-align: center;
+          background: #b7dae5;
+          height: 34px;
+          padding:30px;
+          margin-left: -35px;
 
-          .logo{
-            img{
-              width: 200px;
-              height: 120px;
-              padding-left: 40px;
+          h3{
+            color:$titleColor;
+            font-size: 30px;
 
-            }
-          }
-
-          .under-logo-list{
-            ul{
-              li{
-                list-style: none;
-                margin-left: 0;
-
-              }
-            }
           }
         }
 
-        .content-footer-right{
-          width: 60%;
-          height: 100%;
-          display: flex;
-
-          .left-list{
-
-            ul{
-              li{
-                list-style: none;
-                margin-left:-40px;
-                padding-bottom: 5px;
-              }
-            }
-
+        .image{
+          margin-bottom: -5px;
+          img{
+            width: 100%;
+            height: 450px;
           }
 
-          .right-list{
-            padding-left: 168px;
 
-            ul{
-              li{
-                list-style: none;
-                margin-left:-40px;
-                padding-bottom: 5px;
-              }
-            }
+        }
+        .front-image{
+          margin-bottom: -5px;
+          img{
+            width: 100%;
+            height: 450px;
+            margin-bottom: -5px;
           }
+
 
         }
       }
-      .under-footer-background{
-        width: 100%;
-        height: 100px;
-        background-image: url(https://www.lamolisana.it/wp-content/uploads/2020/06/footer-montagne-bottom.jpg);
-        background-size: contain;
+
+    }
+
+  }
+
+  // START FOOTER------------------------------------------------------------
+  .footer{
+    width: 100%;
+    height: 500px;
+    background: #fff;
+
+    .container{
+      width: 1100px;
+      margin: 0 auto;
+      height: 80%;
+      display: flex;
+      background: #fff;
+      color: $colorFooter;
+
+      .content-footer-left{
+        height: 100%;
+        width: 37%;
+
+        .logo{
+          img{
+            width: 200px;
+            height: 120px;
+            padding-left: 40px;
+
+          }
+        }
+
+        .under-logo-list{
+          ul{
+            li{
+              list-style: none;
+              margin-left: 0;
+
+            }
+          }
+        }
+      }
+
+      .content-footer-right{
+        width: 60%;
+        height: 100%;
+        display: flex;
+
+        .left-list{
+
+          ul{
+            li{
+              list-style: none;
+              margin-left:-40px;
+              padding-bottom: 5px;
+            }
+          }
+
+        }
+
+        .right-list{
+          padding-left: 168px;
+
+          ul{
+            li{
+              list-style: none;
+              margin-left:-40px;
+              padding-bottom: 5px;
+            }
+          }
+        }
+
       }
     }
+    .under-footer-background{
+      width: 100%;
+      height: 100px;
+      background-image: url(https://www.lamolisana.it/wp-content/uploads/2020/06/footer-montagne-bottom.jpg);
+      background-size: contain;
+    }
   }
+
 
   // END MAIN-CONTAINER
 }

@@ -7,6 +7,7 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="{{asset('css/app.css')}}">
   <title></title>
 </head>
 <body>
@@ -15,23 +16,36 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
   <div class="main-container-app">
     <!-- START APPLICATION -->
 
+    @include('header-part')
 
     <div class="container">
 
-      <div class="header">
 
-        @include('header-part')
 
+      <div class="details-product">
+        <div class="container">
+
+
+          <div class="title">
+            <h3>{{$datiPasta[$idProduct - 1]['titolo']}}</h3>
+          </div>
+
+          <div class="image">
+            <img src="{{$datiPasta[$idProduct]['src-h']}}" alt="">
+          </div>
+
+          <div class="front-image">
+            <img src="{{$datiPasta[$idProduct]['src-p']}}" alt="">
+          </div>
+        </div>
       </div>
 
-      <div class="content">
-        {{$datiPasta[$idProduct - 1]['titolo']}}
-        <img src="{{$datiPasta[$idProduct]['src-h']}}" alt="">;
-      </div>
 
 
-      @include('footer-part')
+
+
     </div>
+    @include('footer-part')
   </div>
 
 </body>

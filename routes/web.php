@@ -11,6 +11,8 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
+
+
 */
 //
 // Route::get('/', function () {
@@ -23,6 +25,7 @@ use Illuminate\Support\Facades\Route;
 //     );
 // });
 //
+
 
 Route::get('/', function() {
   $pastaArray = config('dati-pasta');
@@ -40,7 +43,9 @@ Route::get('/product/{id?}', function($id=null) {
   if(empty($id)) {
     return redirect('/');
   }
-  
+  if($id > count($pastaArray)){
+    abort(404);
+  }
   return view('product',
   ['datiPasta' => $pastaArray],
    ['idProduct' => $id]);

@@ -3,7 +3,7 @@
 
         <div class="logo-image">
           <div class="img">
-          <img src="{{$logoMolisana}}" alt="">
+        <a href="/">  <img src="{{$logoMolisana}}" alt=""></a>
           </div>
         </div>
 

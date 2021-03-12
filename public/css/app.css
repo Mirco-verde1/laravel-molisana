@@ -14,7 +14,7 @@
 .main-container-app .header .logo-image {
   text-align: center;
 }
-.main-container-app .header .logo-image img {
+.main-container-app .header .logo-image a img {
   width: 200px;
   height: 120px;
 }
@@ -31,9 +31,6 @@
   padding: 30px;
 }
 .main-container-app .container {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
   background-image: url(/images/fondo-pag-speciali.jpg?495cda396bfe9f137038166b61c40759);
 }
 .main-container-app .container .product-container {
@@ -80,12 +77,48 @@
   width: 100%;
   height: 100%;
 }
-.main-container-app .container .footer {
+.main-container-app .container .details-product {
+  width: 100%;
+  height: 1300px;
+  background: #b7dae5;
+}
+.main-container-app .container .details-product .container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.main-container-app .container .details-product .container .title {
+  width: 100%;
+  text-align: center;
+  background: #b7dae5;
+  height: 34px;
+  padding: 30px;
+  margin-left: -35px;
+}
+.main-container-app .container .details-product .container .title h3 {
+  color: #002d73;
+  font-size: 30px;
+}
+.main-container-app .container .details-product .container .image {
+  margin-bottom: -5px;
+}
+.main-container-app .container .details-product .container .image img {
+  width: 100%;
+  height: 450px;
+}
+.main-container-app .container .details-product .container .front-image {
+  margin-bottom: -5px;
+}
+.main-container-app .container .details-product .container .front-image img {
+  width: 100%;
+  height: 450px;
+  margin-bottom: -5px;
+}
+.main-container-app .footer {
   width: 100%;
   height: 500px;
   background: #fff;
 }
-.main-container-app .container .footer .container {
+.main-container-app .footer .container {
   width: 1100px;
   margin: 0 auto;
   height: 80%;
@@ -93,38 +126,38 @@
   background: #fff;
   color: #848d9b;
 }
-.main-container-app .container .footer .container .content-footer-left {
+.main-container-app .footer .container .content-footer-left {
   height: 100%;
   width: 37%;
 }
-.main-container-app .container .footer .container .content-footer-left .logo img {
+.main-container-app .footer .container .content-footer-left .logo img {
   width: 200px;
   height: 120px;
   padding-left: 40px;
 }
-.main-container-app .container .footer .container .content-footer-left .under-logo-list ul li {
+.main-container-app .footer .container .content-footer-left .under-logo-list ul li {
   list-style: none;
   margin-left: 0;
 }
-.main-container-app .container .footer .container .content-footer-right {
+.main-container-app .footer .container .content-footer-right {
   width: 60%;
   height: 100%;
   display: flex;
 }
-.main-container-app .container .footer .container .content-footer-right .left-list ul li {
+.main-container-app .footer .container .content-footer-right .left-list ul li {
   list-style: none;
   margin-left: -40px;
   padding-bottom: 5px;
 }
-.main-container-app .container .footer .container .content-footer-right .right-list {
+.main-container-app .footer .container .content-footer-right .right-list {
   padding-left: 168px;
 }
-.main-container-app .container .footer .container .content-footer-right .right-list ul li {
+.main-container-app .footer .container .content-footer-right .right-list ul li {
   list-style: none;
   margin-left: -40px;
   padding-bottom: 5px;
 }
-.main-container-app .container .footer .under-footer-background {
+.main-container-app .footer .under-footer-background {
   width: 100%;
   height: 100px;
   background-image: url(https://www.lamolisana.it/wp-content/uploads/2020/06/footer-montagne-bottom.jpg);

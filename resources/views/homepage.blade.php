@@ -31,7 +31,7 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
           @if($type['tipo'] === 'lunga')
 
           <div class="box-product">
-            <a href="/product/{{$key}}">
+            <a href="/product/{{$key + 1}}">
             <img src="{{$type['src']}}" alt="">
             </a>
           </div>
@@ -48,7 +48,7 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
           @if($type['tipo'] === 'corta')
 
           <div class="box-product">
-            <a href="/product/{{$key}}">
+            <a href="/product/{{$key + 1}}">
             <img src="{{$type['src']}}" alt="">
             </a>
           </div>
@@ -65,7 +65,7 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
           @if($type['tipo'] == 'cortissima')
 
           <div class="box-product">
-            <a href="/product/{{$key}}">
+            <a href="/product/{{$key + 1}}">
             <img src="{{$type['src']}}" alt="">
             </a>
           </div>

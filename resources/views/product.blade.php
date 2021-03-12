@@ -25,7 +25,7 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
       </div>
 
       <div class="content">
-        {{$datiPasta[$idProduct]['titolo']}}
+        {{$datiPasta[$idProduct - 1]['titolo']}}
         <img src="{{$datiPasta[$idProduct]['src-h']}}" alt="">;
       </div>
 

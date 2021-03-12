@@ -90,6 +90,7 @@
   width: 1100px;
   margin: 0 auto;
   height: 100%;
+  display: flex;
 }
 .main-container-app .container .footer .container .content-footer-left {
   height: 100%;
@@ -109,4 +110,11 @@
 .main-container-app .container .footer .container .content-footer-right {
   width: 60%;
   height: 100%;
+  display: flex;
+}
+.main-container-app .container .footer .container .content-footer-right .left-list ul li {
+  list-style: none;
+}
+.main-container-app .container .footer .container .content-footer-right .right-list ul li {
+  list-style: none;
 }

@@ -126,7 +126,7 @@ $data  = '[
 
 $array = json_decode($data, true);
 
-@endphp;
+@endphp
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

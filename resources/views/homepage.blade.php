@@ -139,6 +139,8 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
 
   <div class="main-container-app">
     <!-- START APPLICATION -->
+
+
     <div class="container">
 
 
@@ -263,6 +265,28 @@ $logoMolisana= 'https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sit
                 <li>100 anni di pasta</li>
                 <li>Sartoria della pasta</li>
               </ul>
+
+              <h4>PRODOTTI</h4>
+              <ul>
+                <li>Le classiche</li>
+                <li>Le Integrali</li>
+                <li>Le Speciali</li>
+                <li>Le Biologiche</li>
+                <li>Le Gluten-Free</li>
+                <li>Le Semole</li>
+                <li>Le Extra di Lusso</li>
+              </ul>
+            </div>
+
+            <div class="right-list">
+              <h4>COLLEZIONE DA CHEF</h4>
+              <ul>
+                <li>Collezione da Chef</li>
+                <li>Grandi Cucine</li>
+                <li>Biologiche</li>
+                <li>Quadrate</li>    
+              </ul>
+
             </div>
 
           </div>
